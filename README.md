@@ -1,2 +1,2 @@
-# Fundamentos_Programacion_2023-1
+# Fundamentos de Programacion 2023-1
 Ejercicios Ticademia
