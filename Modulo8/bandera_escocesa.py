@@ -5,7 +5,7 @@ def bandera_escocesa(l):
                 print('#', end='')
             else:
                 print('0', end='')
-        print(end = "\n")
+        print(end="\n")
 
 
 n = int(input())
