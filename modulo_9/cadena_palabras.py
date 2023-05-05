@@ -1,5 +1,6 @@
-with open('cadena.txt', 'r') as file1:
+with open('src/cadena.txt', 'r') as file1:
     lines = file1.readlines()
+
 
 def cadena(l):
     if len(l) == 1:
@@ -13,6 +14,6 @@ def cadena(l):
     else:
         return 'cadena rota'
 
+
 for line in lines:
     print(cadena(line.split()))
-
