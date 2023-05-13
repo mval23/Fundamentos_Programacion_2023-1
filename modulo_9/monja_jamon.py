@@ -1,17 +1,16 @@
-with open('src/trifelios.txt', 'r') as file1:
-    lines = file1.readlines()
-
-
 def trifelio(words):
-    phrase = []
-    for word in words:
-        letters = list(word)
-        for l in letters:
-            if phrase[-3] == l:
+    w1 = words[1]
+    w1 = w1.strip("\n")
+    rep = words[0]*2
+    if w1 in rep:
+        return True
+    return False
 
 
+with open('src/trifelios.txt', 'r') as file1:
+    for line in file1:
+        if trifelio(line.split("-")):
+            print("Es trifelio")
+        else:
+            print("No es trifelio")
 
-
-for line in lines:
-    line = line.strip("\n")
-    print(trifelio(line.split('-'))

@@ -1,0 +1,12 @@
+-- abrir archivos
+with open('filename', 'r') as var:
+    lines = var.readlines()
+
+-- reescribir archivos
+with open('filename', 'w') as var:
+    for line in modified_lines:
+        file.write(line + "\n")
+
+- con print
+with open('filename', "w") as vat:
+    print('text', file=var)

@@ -1,0 +1,15 @@
+Booleans
+
+Bool = True, False
+
+<> >= <= == !=
+not
+and
+or
+in
+if
+else
+elif
+
+do if condition else do
+

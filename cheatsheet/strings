@@ -1,0 +1,58 @@
+s = '' or ""
+\n \" \' \t \\
+str()
+s[start:stop:step]
+
+Methods
+.capitalize() - capitalize the first letter
+.casefold() - fold the case of the string
+.center() - center align the string
+.count() - count the number of occurrences of a substring
+.encode() - encode the string
+.endswith() - check if string ends with a specified substring
+.expandtabs() - expand tabs to spaces
+.find() - find the index of a substring
+.format() - format the string with specified values
+.format_map() - format the string with a dictionary
+.index() - find the index of a substring
+.isalnum() - check if all characters are alphanumeric
+.isalpha() - check if all characters are alphabets
+.isdecimal() - check if all characters are decimal
+.isdigit() - check if all characters are digits
+.isidentifier() - check if string is a valid identifier
+.islower() - check if all characters are lowercase
+.isnumeric() - check if all characters are numeric
+.isprintable() - check if string is printable
+.isspace() - check if all characters are whitespace
+.istitle() - check if string is titlecased
+.isupper() - check if all characters are uppercase
+.join() - join a sequence of strings
+.ljust() - left align the string
+.lower() - convert the string to lowercase
+.lstrip() - strip whitespace from the beginning of the string
+.maketrans() - create a translation table
+.partition() - partition the string into three parts
+.replace() - replace occurrences of a substring
+.rfind() - find the index of the last occurrence of a substring
+.rindex() - find the index of the last occurrence of a substring
+.rjust() - right align the string
+.rpartition() - partition the string into three parts from the right
+.rsplit() - split the string from the right
+.rstrip() - strip whitespace from the end of the string
+.split() - split the string
+.splitlines() - split the string at line breaks
+.startswith() - check if the string starts with a specified substring
+.strip() - strip whitespace from both ends of the string
+.swapcase() - swap the case of the string
+.title() - convert the string to titlecase
+.translate() - translate the string using a translation table
+.upper() - convert the string to uppercase
+.zfill() - pad the string with zeros
+
+Functions
+import()
+input()
+print()
+len()
+float()
+str()
