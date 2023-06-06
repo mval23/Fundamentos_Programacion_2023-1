@@ -1,11 +1,13 @@
 def anagrama(words):
-    w1 = list(words[0]).sort()
-    w2 = list(words[1]).sort()
-    if list(w1).sort() == list(w1).sort():
+    w1 = words[0].replace(" ", "")
+    w2 = words[1].replace(" ", "")
+    if sorted(w1) == sorted(w2):
         return "Es anagrama"
     else:
         return "No es anagrama"
 
 
-l = input().split(":")
-print(anagrama(l))
+n = int(input())
+for i in range(n):
+    l = input().split(":")
+    print(anagrama(l))
