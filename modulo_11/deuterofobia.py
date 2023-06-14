@@ -15,6 +15,5 @@ for i in range(cant):
     caso = input()
     caso = caso.split()
     caso[0] = datetime.strptime(caso[0], "%Y/%m/%d")
-    caso[1] = int(caso[1])
-    c = coincidencia_lunes(caso[0], caso[1])
+    c = coincidencia_lunes(caso[0], int(caso[1]))
     print(c)

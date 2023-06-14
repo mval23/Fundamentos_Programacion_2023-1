@@ -12,32 +12,29 @@ def dias_mes(mes, año):
 
 
 def calendario(d):
-    dia_semana = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
-    d_referencia = datetime(d.year, d.month, 1)
-    posicion = d_referencia.weekday()
+    posicion = datetime(d.year, d.month, 1).weekday()
     semana_1 = [1]
     while len(semana_1) != (posicion + 1):
         semana_1.insert(0, "")
-    contador = 2
+    dia = 2
     while len(semana_1) != 7:
-        semana_1.append(contador)
-        contador += 1
-    cals = [dia_semana, semana_1]
+        semana_1.append(dia)
+        dia += 1
+    cals = [["lun", "mar", "mie", "jue", "vie", "sab", "dom"], semana_1]
     semana = []
-    while contador != dias_mes(d.month, d.year) + 1:
+    for dia in range(dia, dias_mes(d.month, d.year) + 1):
         if len(semana) == 7:
             cals.append(semana)
             semana = []
-        semana.append(contador)
-        contador += 1
+        semana.append(dia)
     cals.append(semana)
     return cals
 
 
 from datetime import datetime
 
-cantidad = int(input())
-for i in range(cantidad):
+n = int(input())
+for i in range(n):
     d = datetime.strptime(input(), "%d/%m/%Y")
     cals = calendario(d)
     for i in cals:
