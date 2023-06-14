@@ -1,7 +1,4 @@
 # Fundamentos de Programacion 2023-1
-Ejercicios Ticademia
-
-Here's a cheat sheet for conditionals in Python:
 
 # Conditionals Cheat Sheet
 
