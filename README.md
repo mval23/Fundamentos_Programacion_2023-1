@@ -1,4 +1,4 @@
-# Fundamentos de Programacion 2023-1
+# Fundamentos de Programacion
 
 # Conditionals Cheat Sheet
 
