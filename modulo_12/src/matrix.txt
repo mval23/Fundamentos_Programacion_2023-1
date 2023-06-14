@@ -1,0 +1,6 @@
+Smith: ?pregunta 1?
+Neo: respuesta 1
+Smith: ?pregunta 3?
+Morfeo: respuesta 3
+Smith: frase 1 ?pregunta 1? frase 2, ?pregunta 2?
+Trinity: respuesta 3 
