@@ -1,4 +1,4 @@
-# Fundamentos de Programacion
+# Python Basics
 
 # Conditionals Cheat Sheet
 
